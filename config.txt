@@ -1,0 +1,12 @@
+resX:1280
+resY:720
+antialiasing:8
+
+zoom:1.5
+zoomRate:0.001
+
+bigG:4
+massCount:300
+
+randDeviation:150
+velocityRatio:300
