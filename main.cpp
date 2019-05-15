@@ -175,6 +175,9 @@ int main()
                 case sf::Event::Closed:
                     window.close();
                     break;
+                case sf::Event::MouseWheelScrolled:
+                    cfg.zoom -= event.mouseWheelScroll.delta * 0.1;
+                    break;
                 default: {};
             }
         }
